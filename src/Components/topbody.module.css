@@ -1,0 +1,46 @@
+.topContainer h1 {
+  color: black;
+  margin: 0px;
+  font-size: 2empx;
+  font-weight: bold;
+}
+.topContainer {
+  margin-top: 20px;
+}
+.underline {
+  text-decoration: wavy;
+  border-bottom: 1px solid blue;
+}
+.paragraph {
+  display: flex;
+}
+.container {
+  width: 60%;
+  margin: 0;
+}
+.left_paragraph {
+  float: left;
+  width: 100%; /* Adjust as needed */
+  font-family: Arial, Helvetica, sans-serif;
+}
+.butnContainer {
+  margin-top: 10px;
+  display: flex;
+}
+.firstBtn {
+  background-color: blue;
+  color: white;
+  border: none;
+  display: flex;
+  padding: 12px 20px;
+  border-radius: 8px;
+  margin-right: 10px;
+  cursor: pointer;
+}
+.secondBtn {
+  background-color: aqua;
+  border: none;
+  border-radius: 8px;
+  padding: 12px 20px;
+  cursor: pointer;
+}

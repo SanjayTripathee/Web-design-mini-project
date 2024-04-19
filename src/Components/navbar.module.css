@@ -1,0 +1,58 @@
+.img {
+  height: 30px;
+  display: flex;
+  width: 20px;
+}
+.navbarContainer {
+  display: flex;
+  justify-content: baseline;
+  width: 300px;
+  margin: 0px;
+}
+.service {
+  margin: 0 auto;
+  padding: 10px;
+  margin-left: 6em;
+}
+.industery {
+  /* margin-left: 0em; */
+  padding: 10px;
+}
+.tech {
+  padding: 10px;
+  /* margin-left: 6em;
+  margin: 0 auto; */
+}
+.protfolio {
+  padding: 10px;
+}
+.carier {
+  padding: 10px;
+}
+.about {
+  padding: 10px;
+}
+.butn {
+  padding: 10px;
+  background-color: green;
+  border: none;
+  border-radius: 10px;
+  color: wheat;
+  margin-bottom: 10px;
+  position: fixed;
+  top: 10px;
+  right: 20px;
+  cursor: pointer;
+}
+.middleContainer {
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
+  position: fixed;
+  top: 20px;
+  right: 500px;
+}
+.mainContaier {
+  box-shadow: 0px 0px 6px rgba(0, 0, 0, 0.5px);
+  /* background-color: #eaeaea; */
+}
