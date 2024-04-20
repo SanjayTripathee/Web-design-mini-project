@@ -1,0 +1,14 @@
+.secDeg {
+  height: 50px;
+  padding: 50px;
+}
+.container {
+  margin: 0px;
+  display: flex;
+  background-color: #eaeaea;
+  padding: 10px;
+}
+.paragraph {
+  float: left;
+  width: 40%; /* Adjust as needed */
+}

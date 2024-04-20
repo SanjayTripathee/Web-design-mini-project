@@ -12,7 +12,7 @@
 .service {
   margin: 0 auto;
   padding: 10px;
-  margin-left: 6em;
+  margin-left: 20em;
 }
 .industery {
   /* margin-left: 0em; */
@@ -39,7 +39,7 @@
   border-radius: 10px;
   color: wheat;
   margin-bottom: 10px;
-  position: fixed;
+  position: absolute;
   top: 10px;
   right: 20px;
   cursor: pointer;
@@ -48,7 +48,7 @@
   display: flex;
   justify-content: center;
   margin: 0 auto;
-  position: fixed;
+  position: absolute;
   top: 20px;
   right: 500px;
 }

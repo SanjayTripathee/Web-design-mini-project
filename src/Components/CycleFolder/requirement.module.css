@@ -1,0 +1,17 @@
+.container {
+  width: 400px;
+  margin: 0;
+  display: flex;
+  margin-top: 10em;
+  background-color: #eaeaea;
+  padding: 10px;
+}
+
+.image {
+  height: 50px;
+  padding: 50px;
+}
+.paragraph {
+  float: right;
+  width: 100%;
+}

@@ -1,0 +1,16 @@
+.hr {
+  height: 50px;
+  padding: 50px;
+}
+.container {
+  width: 400px;
+  margin: 0;
+  display: flex;
+  margin-top: 10em;
+  background-color: #eaeaea;
+  padding: 10px;
+}
+.paragraph {
+  float: left;
+  width: 200%;
+}

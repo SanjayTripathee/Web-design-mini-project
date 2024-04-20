@@ -1,0 +1,9 @@
+.container {
+  padding: 150px;
+  margin: 0 auto;
+  box-shadow: 0 0px 0px rgba(0, 0, 0, 0.1);
+}
+.image {
+  height: 80px;
+  border-radius: 50px;
+}
