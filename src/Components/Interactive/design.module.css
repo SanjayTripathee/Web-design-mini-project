@@ -1,0 +1,85 @@
+.mainContainer {
+  flex: 1;
+}
+.worddesign {
+  color: blue;
+  font-size: 20px;
+}
+.paragraph {
+  font-size: 20px;
+}
+.maindivofBtn {
+  padding: 10px;
+  font-size: 6em;
+  min-width: 0px;
+  margin-left: 50px;
+}
+.firstRowbtn {
+  display: flex;
+  margin-top: 40px;
+  padding: 10px;
+}
+.graphicBtn {
+  color: blue;
+  border-color: blue;
+  padding: 10px;
+  border-radius: 4px;
+  min-width: 10em;
+  margin-right: 200px;
+  cursor: pointer;
+}
+.uiuxbtn {
+  color: blue;
+  border-color: blue;
+  border-radius: 4px;
+  min-width: 10em;
+  padding: 10px;
+  margin-right: 200px;
+  cursor: pointer;
+}
+.secondRowbtn {
+  display: flex;
+  margin-top: 40px;
+  padding: 10px;
+}
+.Motion {
+  color: blue;
+  border-color: blue;
+  border-radius: 4px;
+  min-width: 10em;
+  padding: 10px;
+  margin-right: 200px;
+  cursor: pointer;
+}
+.vidioedit {
+  color: blue;
+  border-color: blue;
+  border-radius: 4px;
+  min-width: 10em;
+  padding: 10px;
+  margin-right: 200px;
+  cursor: pointer;
+}
+.thirdRowbtn {
+  display: flex;
+  margin-top: 20px;
+  padding: 10px;
+}
+.Animate {
+  color: blue;
+  border-color: blue;
+  border-radius: 4px;
+  min-width: 10em;
+  padding: 10px;
+  margin-right: 200px;
+  cursor: pointer;
+}
+.eBay {
+  color: blue;
+  border-color: blue;
+  border-radius: 4px;
+  min-width: 10em;
+  padding: 10px;
+  margin-right: 200px;
+  cursor: pointer;
+}
