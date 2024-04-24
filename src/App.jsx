@@ -14,8 +14,28 @@ import DesignDetail from "./Components/Interactive/DesignDetail.jsx";
 
 export default function App() {
   const [insert, setInsert] = useState(false);
+  const [insertUi, setInsertUi] = useState(false);
+  const [insertMotion, setInsertMotion] = useState(false);
+  const [insertVideo, setInsertVideo] = useState(false);
+  const [insertAnimation, setInsertAnimation] = useState(false);
+  const [inserteBay, setInserteBay] = useState(false);
   const toggleImage = () => {
     setInsert(!insert);
+  };
+  const toggleImageUi = () => {
+    setInsertUi(!insertUi);
+  };
+  const toggleImageMotion = () => {
+    setInsertMotion(!insertMotion);
+  };
+  const toggleImageVideo = () => {
+    setInsertVideo(!insertVideo);
+  };
+  const toggleImageAnimation = () => {
+    setInsertAnimation(!insertAnimation);
+  };
+  const toggleImageeBay = () => {
+    setInserteBay(!inserteBay);
   };
   return (
     <div>
@@ -43,10 +63,24 @@ export default function App() {
       </Container>
       <Container>
         <InnerContainer>
-          <Design toggleImage={toggleImage} />
+          <Design
+            toggleImage={toggleImage}
+            toggleImageUi={toggleImageUi}
+            toggleImageMotion={toggleImageMotion}
+            toggleImageVideo={toggleImageVideo}
+            toggleImageAnimation={toggleImageAnimation}
+            toggleImageeBay={toggleImageeBay}
+          />
         </InnerContainer>
         <InnerContainer>
-          <DesignDetail insert={insert} />
+          <DesignDetail
+            insert={insert}
+            insertUi={insertUi}
+            insertMotion={insertMotion}
+            insertVideo={insertVideo}
+            insertAnimation={insertAnimation}
+            inserteBay={inserteBay}
+          />
         </InnerContainer>
       </Container>
     </div>

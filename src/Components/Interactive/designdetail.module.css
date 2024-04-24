@@ -1,0 +1,7 @@
+.maindiv {
+  margin-top: 100px;
+}
+.img img {
+  height: 20em;
+  border: 0.5rem outset #ffc0cb;
+}

@@ -2,7 +2,14 @@ import styles from "./design.module.css";
 import DesignDetail from "./DesignDetail";
 import { useState } from "react";
 
-export default function Design({ toggleImage }) {
+export default function Design({
+  toggleImage,
+  toggleImageUi,
+  toggleImageMotion,
+  toggleImageVideo,
+  toggleImageAnimation,
+  toggleImageeBay,
+}) {
   return (
     <div className={styles.mainContainer}>
       <p className={styles.paragraph}>
@@ -16,23 +23,23 @@ export default function Design({ toggleImage }) {
             Graphic Design
           </button>
 
-          <button onClick={toggleImage} className={styles.uiuxbtn}>
+          <button onClick={toggleImageUi} className={styles.uiuxbtn}>
             UI/UX Design
           </button>
         </div>
         <div className={styles.secondRowbtn}>
-          <button onClick={toggleImage} className={styles.Motion}>
+          <button onClick={toggleImageMotion} className={styles.Motion}>
             Motion Design
           </button>
-          <button onClick={toggleImage} className={styles.vidioedit}>
+          <button onClick={toggleImageVideo} className={styles.vidioedit}>
             Video Edeting
           </button>
         </div>
         <div className={styles.thirdRowbtn}>
-          <button onClick={toggleImage} className={styles.Animate}>
+          <button onClick={toggleImageAnimation} className={styles.Animate}>
             Animation
           </button>
-          <button onClick={toggleImage} className={styles.eBay}>
+          <button onClick={toggleImageeBay} className={styles.eBay}>
             eBayStore Design
           </button>
         </div>
