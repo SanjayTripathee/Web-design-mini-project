@@ -1,7 +1,14 @@
 .img {
-  height: 30px;
+  height: 90px;
   display: flex;
-  width: 20px;
+  width: 200px;
+}
+.para {
+  font-size: 20px;
+  font-weight: bold;
+  padding: 8px;
+
+  margin-top: 0px;
 }
 .navbarContainer {
   display: flex;
