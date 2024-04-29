@@ -17,12 +17,16 @@ export default function DesignDetail({
   return (
     <div className={styles.maindiv}>
       <div className={styles.img}>
-        {insert ? <img src={graphic} /> : null}
-        {insertUi ? <img src={uiux} /> : null}
-        {insertMotion ? <img src={motion} /> : null}
-        {insertVideo ? <img src={video} /> : null}
-        {insertAnimation ? <img src={animation} /> : null}
-        {inserteBay ? <img src={ebay} /> : null}
+        {insert ? (
+          <img src={graphic} />
+        ) : (
+          <span className={styles.paragr}>Click Button To view Detail</span>
+        )}
+        {insertUi ? <img src={uiux} /> : insert}
+        {insertMotion ? <img src={motion} /> : insert}
+        {insertVideo ? <img src={video} /> : insert}
+        {insertAnimation ? <img src={animation} /> : insert}
+        {inserteBay ? <img src={ebay} /> : insert}
       </div>
     </div>
   );

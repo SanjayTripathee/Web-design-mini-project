@@ -11,6 +11,12 @@ import Firebrush from "./Components/CycleFolder/Firebrush.jsx";
 import Design from "./Components/Interactive/Design.jsx";
 import { useState } from "react";
 import DesignDetail from "./Components/Interactive/DesignDetail.jsx";
+import Model from "./Components/Interactive/Model.jsx";
+import "./app.css";
+import ModleSideImage from "./Components/Interactive/ModleSideImage.jsx";
+import Form from "./Components/Form/Form.jsx";
+import Imag from "./Components/Form/Imag.jsx";
+import Footer from "./Components/Footer.jsx";
 
 export default function App() {
   const [insert, setInsert] = useState(false);
@@ -19,6 +25,7 @@ export default function App() {
   const [insertVideo, setInsertVideo] = useState(false);
   const [insertAnimation, setInsertAnimation] = useState(false);
   const [inserteBay, setInserteBay] = useState(false);
+
   const toggleImage = () => {
     setInsert(!insert);
   };
@@ -81,6 +88,30 @@ export default function App() {
             insertAnimation={insertAnimation}
             inserteBay={inserteBay}
           />
+        </InnerContainer>
+      </Container>
+      <Container>
+        <InnerContainer>
+          <Model />
+        </InnerContainer>
+        <InnerContainer>
+          <ModleSideImage />
+        </InnerContainer>
+      </Container>
+      <Container>
+        <InnerContainer>
+          <Imag />
+        </InnerContainer>
+        <InnerContainer>
+          <Form />
+        </InnerContainer>
+      </Container>
+      <Container>
+        <InnerContainer>
+          <Footer />
+        </InnerContainer>
+        <InnerContainer>
+          <Footer />
         </InnerContainer>
       </Container>
     </div>

@@ -1,0 +1,22 @@
+.mainDiv {
+  box-shadow: 0px 4px 6px rgba(0px, 0px, 4px);
+}
+.paragraph {
+  padding: 10px 50px;
+  color: blue;
+  font-size: large;
+  font-weight: bold;
+}
+.parag {
+  padding: 10px 50px;
+  color: blue;
+  font-size: large;
+}
+.mainparag {
+  padding: 20px;
+}
+.ul {
+  padding: 0px 60px;
+  font-size: small;
+  width: 90%;
+}

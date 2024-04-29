@@ -1,0 +1,14 @@
+.mainDiv {
+  box-shadow: 0px 4px 6px rgba(0px, 0px, 4px);
+}
+
+.img {
+  height: 20em;
+  margin-top: 30px;
+  width: 800px;
+}
+.image {
+  margin-top: 60px;
+  height: 15em;
+  width: 800px;
+}

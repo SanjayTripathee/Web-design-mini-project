@@ -1,12 +1,12 @@
 import styles from "./navbar.module.css";
 
-import Recgn from "../Image/index.png";
+import Recgn from "../Image/recnz.png";
 export default function App() {
   return (
     <div className={styles.mainContaier}>
       <div className={styles.navbarContainer}>
         <img className={styles.img} src={Recgn} alt="" />
-
+        <p className={styles.p}>RECGENZ</p>
         <div className={styles.middleContainer}>
           <div className={styles.service}>
             {<label>Service</label>}
