@@ -3,9 +3,10 @@ import styles from "./topbody.module.css";
 export default function TopBody() {
   return (
     <div className={styles.topContainer}>
-      <h1>Unlock your's Team</h1>
+      <h1>Give your name to class Monitor for extra Class</h1>
       <h1>
-        <span className={styles.underline}>Potential</span> with our design
+        <span className={styles.underline}>Increase Potential</span> with our
+        course
       </h1>
       <h1>Expertise</h1>
       <div class={styles.container}>

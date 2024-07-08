@@ -13,6 +13,7 @@ export default function DesignDetail({
   insertVideo,
   insertAnimation,
   inserteBay,
+  myImage,
 }) {
   return (
     <div className={styles.maindiv}>
@@ -22,11 +23,25 @@ export default function DesignDetail({
         ) : (
           <span className={styles.paragr}>Click Button To view Detail</span>
         )}
+
+        {myImage === "insertUi" ? (
+          <img src={uiux} />
+        ) : myImage === "insertMotion" ? (
+          <img src={motion} />
+        ) : myImage === "insertVideo" ? (
+          <img src={video} />
+        ) : myImage === "insertAnimation" ? (
+          <img src={animation} />
+        ) : myImage === "inserteBay" ? (
+          <img src={ebay} />
+        ) : null}
+
+        {/* 
         {insertUi ? <img src={uiux} /> : insert}
         {insertMotion ? <img src={motion} /> : insert}
         {insertVideo ? <img src={video} /> : insert}
         {insertAnimation ? <img src={animation} /> : insert}
-        {inserteBay ? <img src={ebay} /> : insert}
+        {inserteBay ? <img src={ebay} /> : insert} */}
       </div>
     </div>
   );

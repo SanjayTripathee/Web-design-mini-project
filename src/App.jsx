@@ -25,24 +25,31 @@ export default function App() {
   const [insertVideo, setInsertVideo] = useState(false);
   const [insertAnimation, setInsertAnimation] = useState(false);
   const [inserteBay, setInserteBay] = useState(false);
+  const [myImage, setMyImage] = useState("");
 
   const toggleImage = () => {
     setInsert(!insert);
+    setMyImage("insert");
   };
   const toggleImageUi = () => {
     setInsertUi(!insertUi);
+    setMyImage("insertUi");
   };
   const toggleImageMotion = () => {
     setInsertMotion(!insertMotion);
+    setMyImage("insertMotion");
   };
   const toggleImageVideo = () => {
     setInsertVideo(!insertVideo);
+    setMyImage("insertVideo");
   };
   const toggleImageAnimation = () => {
     setInsertAnimation(!insertAnimation);
+    setMyImage("insertAnimation");
   };
   const toggleImageeBay = () => {
     setInserteBay(!inserteBay);
+    setMyImage("inserteBay");
   };
   return (
     <div>
@@ -87,6 +94,7 @@ export default function App() {
             insertVideo={insertVideo}
             insertAnimation={insertAnimation}
             inserteBay={inserteBay}
+            myImage={myImage}
           />
         </InnerContainer>
       </Container>
