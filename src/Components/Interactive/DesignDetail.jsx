@@ -18,11 +18,11 @@ export default function DesignDetail({
   return (
     <div className={styles.maindiv}>
       <div className={styles.img}>
-        {insert ? (
+        {/* {insert ? (
           <img src={graphic} />
         ) : (
           <span className={styles.paragr}>Click Button To view Detail</span>
-        )}
+        )} */}
 
         {myImage === "insertUi" ? (
           <img src={uiux} />
@@ -34,6 +34,8 @@ export default function DesignDetail({
           <img src={animation} />
         ) : myImage === "inserteBay" ? (
           <img src={ebay} />
+        ) : myImage === "insert" ? (
+          <img src={graphic} />
         ) : null}
 
         {/* 
