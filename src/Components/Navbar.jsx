@@ -1,6 +1,6 @@
 import styles from "./navbar.module.css";
 
-import Recgn from "../Image/images.png";
+import Recgn from "../Image/recnz.png";
 export default function App() {
   return (
     <div className={styles.mainContaier}>
